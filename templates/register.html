@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="display-1">Sign Up</h1>
+    <p class="lead">Register to join our application</p>
+    <form method="POST">
+        {% include 'form_iter.html' %}
+        <button class="btn btn-lg btn-success">Register</button>
+    </form>
+</div>
+
+
+
+{% endblock %}
